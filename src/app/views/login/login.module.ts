@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './login.component';
 import { RegisterComponent } from '../../components/register/register.component';
 import { LoginFormComponent } from '../../components/login-form/login-form.component';
+import { ROUTES } from './login-router';
 import { SharedModule  } from '../shared.module';
 
 @NgModule({
@@ -12,7 +13,8 @@ import { SharedModule  } from '../shared.module';
     CommonModule,
     RouterModule,
     FormsModule,
-    SharedModule
+    SharedModule,
+    ROUTES
   ],
   declarations: [
     LoginComponent,

@@ -1,9 +1,9 @@
 import { RouterModule } from '@angular/router';
+import { MainComponent } from './main.component';
 
 export const ROUTES = RouterModule.forRoot([
     {
-        path: '',
-        redirectTo: '',
-        pathMatch: 'full'
+        path: 'main',
+        component: MainComponent
     }
 ]);
