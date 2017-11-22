@@ -1,7 +1,91 @@
 <app-header></app-header>
 
-<div class="container">
-    <h1>HI</h1>
+<!-- Dropdown Trigger -->
+<br>
+
+<div class="row">
+    <div class="col l4">
+        <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">First</div>
+              <div class="collapsible-body">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="input-field">
+                            <a  class="dropdown prefix" href='#' data-activates='dropdown1'><i class="material-icons prefix">more_vert</i></a>
+                            <ul id='dropdown1' class='dropdown-content'>
+                                    <li><a href="#!">one</a></li>
+                                    <li><a href="#!">two</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#!">three</a></li>
+                                    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                                    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                                  </ul>
+                            <input id="name" type="text" class="validate">
+                            <label for="name">Definicion</label>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="col s12">
+                        <div class="input-field">
+                            <a  class="dropdown prefix" href='#' data-activates='dropdown1'><i class="material-icons prefix">more_vert</i></a>
+                            <ul id='dropdown1' class='dropdown-content'>
+                                    <li><a href="#!">one</a></li>
+                                    <li><a href="#!">two</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#!">three</a></li>
+                                    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                                    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                                  </ul>
+                            <input id="name" type="text">
+                            <label for="name">Caracteristica</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col s12">
+                        <div class="row">
+                            <div class="input-field col s11">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                            <div class="col s1">
+                                <i class="material-icons" >more_vert</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                        <div class="col s12">
+                                <i class="material-icons" >more_vert</i>
+                          <div class="input-field inline">
+                            <input id="email" type="email" class="validate">
+                            <label for="email" data-error="wrong" data-success="right">Email</label>
+                          </div>
+                        </div>
+                      </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">econd</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header">Third</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+        </ul>
+    </div>
 </div>
 
 <app-footer></app-footer>
