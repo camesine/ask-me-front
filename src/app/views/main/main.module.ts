@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MainComponent } from './main.component';
 import { ROUTES } from './main-router';
 import { SharedModule  } from '../shared.module';
-
+import { SimpleTinyComponent } from '../../components/tinymce/tinymce.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -11,7 +11,8 @@ import { SharedModule  } from '../shared.module';
     ROUTES
   ],
   declarations: [
-    MainComponent
+    MainComponent,
+    SimpleTinyComponent
   ]
 })
 export class MainModule { }
