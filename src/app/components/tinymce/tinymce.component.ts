@@ -24,7 +24,12 @@ export class SimpleTinyComponent implements AfterViewInit, OnDestroy {
       selector: '#' + this.elementId,
       plugins: [],
       menubar: false,
-      toolbar: 'undo redo |  formatselect | bold italic backcolor  | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat',
+      height : '430',
+      toolbar: `
+      undo redo | formatselect | bold italic backcolor
+      | alignleft aligncenter alignright alignjustify |
+      bullist numlist outdent indent | removeformat
+      `,
       skin_url: 'assets/skins/lightgray',
       setup: editor => {
         this.editor = editor;

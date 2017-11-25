@@ -13,7 +13,7 @@ export class MainComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-
+    jQuery('.not-collapse').on('click', function(e) { e.stopPropagation(); });
     jQuery('ul.tabs').tabs();
     jQuery('.scrollspy').scrollSpy();
     jQuery('.collapsible').collapsible();
