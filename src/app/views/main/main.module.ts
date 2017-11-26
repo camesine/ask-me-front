@@ -6,6 +6,7 @@ import { SharedModule  } from '../shared.module';
 import { SimpleTinyComponent } from '../../components/tinymce/tinymce.component';
 import { ConceptoComponent } from '../../components/concepto/concepto.component';
 import { DefinicionComponent } from '../../components/definicion/definicion.component';
+import { CaracteristicaComponent } from '../../components/caracteristica/caracteristica.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { DefinicionComponent } from '../../components/definicion/definicion.comp
     MainComponent,
     SimpleTinyComponent,
     ConceptoComponent,
-    DefinicionComponent
+    DefinicionComponent,
+    CaracteristicaComponent
   ]
 })
 export class MainModule { }
