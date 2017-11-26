@@ -10,10 +10,11 @@
 .collapsible-body {
     padding-top: 15px;
 }
+
+.collapsible-header span{
+    margin-top: 12px
+}
 .dropdown {
     margin-top: 10px;
     color: black;
-}
-.collapsible-header span{
-    margin-top: 12px
 }
