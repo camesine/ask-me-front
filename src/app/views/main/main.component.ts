@@ -1,7 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 declare var jQuery: any;
-declare var tinymce: any;
 
 @Component({
   selector: 'app-main',
@@ -13,22 +12,8 @@ export class MainComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    jQuery('.not-collapse').on('click', function(e) { e.stopPropagation(); });
-    jQuery('ul.tabs').tabs();
-    jQuery('.scrollspy').scrollSpy();
-    jQuery('.collapsible').collapsible();
-    jQuery('select').material_select();
-    jQuery('.dropdown').dropdown({
-      inDuration: 300,
-      outDuration: 225,
-      constrainWidth: false,
-      hover: false,
-      gutter: 0,
-      belowOrigin: true,
-      alignment: 'left',
-      stopPropagation: false
-      });
-    }
+
+  }
 
 
 }

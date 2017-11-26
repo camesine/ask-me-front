@@ -4,6 +4,8 @@ import { MainComponent } from './main.component';
 import { ROUTES } from './main-router';
 import { SharedModule  } from '../shared.module';
 import { SimpleTinyComponent } from '../../components/tinymce/tinymce.component';
+import { ConceptoComponent } from '../../components/concepto/concepto.component';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -12,7 +14,8 @@ import { SimpleTinyComponent } from '../../components/tinymce/tinymce.component'
   ],
   declarations: [
     MainComponent,
-    SimpleTinyComponent
+    SimpleTinyComponent,
+    ConceptoComponent
   ]
 })
 export class MainModule { }
