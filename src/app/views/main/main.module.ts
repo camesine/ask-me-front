@@ -7,6 +7,7 @@ import { SimpleTinyComponent } from '../../components/tinymce/tinymce.component'
 import { ConceptoComponent } from '../../components/concepto/concepto.component';
 import { DefinicionComponent } from '../../components/definicion/definicion.component';
 import { CaracteristicaComponent } from '../../components/caracteristica/caracteristica.component';
+import { RelacionComponent } from '../../components/relacion/relacion.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { CaracteristicaComponent } from '../../components/caracteristica/caracte
     SimpleTinyComponent,
     ConceptoComponent,
     DefinicionComponent,
-    CaracteristicaComponent
+    CaracteristicaComponent,
+    RelacionComponent
   ]
 })
 export class MainModule { }

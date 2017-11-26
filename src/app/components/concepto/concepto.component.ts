@@ -19,7 +19,7 @@ export class ConceptoComponent implements OnInit {
       inDuration: 300,
       outDuration: 225,
       constrainWidth: false,
-      hover: false,
+      hover: true,
       gutter: 0,
       belowOrigin: true,
       alignment: 'left',
