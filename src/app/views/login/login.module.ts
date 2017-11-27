@@ -9,17 +9,17 @@ import { ROUTES } from './login-router';
 import { SharedModule  } from '../shared.module';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    RouterModule,
-    FormsModule,
-    SharedModule,
-    ROUTES
-  ],
-  declarations: [
-    LoginComponent,
-    RegisterComponent,
-    LoginFormComponent
-  ]
+	imports: [
+		CommonModule,
+		RouterModule,
+		FormsModule,
+		SharedModule,
+		ROUTES
+	],
+	declarations: [
+		LoginComponent,
+		RegisterComponent,
+		LoginFormComponent
+	]
 })
 export class LoginModule { }
