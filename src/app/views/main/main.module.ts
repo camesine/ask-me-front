@@ -10,18 +10,18 @@ import { CaracteristicaComponent } from '../../components/caracteristica/caracte
 import { RelacionComponent } from '../../components/relacion/relacion.component';
 
 @NgModule({
-	imports: [
-		CommonModule,
-		SharedModule,
-		ROUTES
-	],
-	declarations: [
-		MainComponent,
-		SimpleTinyComponent,
-		ConceptoComponent,
-		DefinicionComponent,
-		CaracteristicaComponent,
-		RelacionComponent
-	]
+  imports: [
+    CommonModule,
+    SharedModule,
+    ROUTES
+  ],
+  declarations: [
+    MainComponent,
+    SimpleTinyComponent,
+    ConceptoComponent,
+    DefinicionComponent,
+    CaracteristicaComponent,
+    RelacionComponent
+  ]
 })
 export class MainModule { }

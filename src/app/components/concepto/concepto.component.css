@@ -1,23 +1,23 @@
 .conceptos {
-    height: auto;
-    height: 530px;
-    overflow: auto;
-    overflow-x: hidden;
+  height: auto;
+  height: 530px;
+  overflow: auto;
+  overflow-x: hidden;
 }
 
 .collapsible-body {
-    padding: 5px;
+  padding: 5px;
 }
 
 .collapsible-body {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .collapsible-header span{
-    margin-top: 12px
+  margin-top: 12px
 }
 
 .dropdown {
-    margin-top: 10px;
-    color: black;
+  margin-top: 10px;
+  color: black;
 }
